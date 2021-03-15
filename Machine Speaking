@@ -1,0 +1,6 @@
+import pyttsx3
+engine = pyttsx3.init()
+voices = engine.getProperty('voices')
+engine.setProperty('voice', 'voices[40330500430243568209485208484838].id')
+engine.say('')
+engine.runAndWait()
